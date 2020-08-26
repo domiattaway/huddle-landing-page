@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+header{
+  background-image: url(images/bg-hero-desktop.svg);
+width: 100%;
+}
+h2, h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu-top{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+align-items: center;
+margin-top: 50px;
+margin-left: 50px;
+}
+.menu-top button{
+margin-left: 900px;
+background-color: white;
+border-radius: 20px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+
+.container.top{
+
+  display: flex;
+margin-right: 0;
+margin-left: 0;
+}
+
+
+.item .top{
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  margin-top:150px;
+  margin-left: 50px;
+
+}
+
+.svg-top{
+    margin-left:0;
+    margin-right: 0;
+width: 600px;
+margin:100px 50px;
+}
+
+.top button{
+  background-color:hsl(322, 100%, 66%) ;
+  border-radius: 20px;
+  border: transparent;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+color: white;
+}
+
+
+
+
+.image-one{
+width: 70%;
+height: auto;
+
+}
+.item .one{
+  width: 500px;
+
+  height: auto;
+  margin-top:150px;
+  margin-left: 50px;
+  align-items: center;
+}
